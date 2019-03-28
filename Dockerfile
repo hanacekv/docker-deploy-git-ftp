@@ -12,3 +12,5 @@ RUN git clone https://github.com/git-ftp/git-ftp.git /opt/git-ftp \
     && git checkout "$tag" \
     && make install \
     && clean
+
+EXPOSE 20 21
